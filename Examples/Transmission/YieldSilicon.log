@@ -1,0 +1,223 @@
+
+        ############################################
+        !!! WARNING - FPE detection is activated !!!
+        ############################################
+
+*************************************************************
+ Geant4 version Name: geant4-10-02-patch-03    (27-January-2017)
+                      Copyright : Geant4 Collaboration
+                      Reference : NIM A 506 (2003), 250-303
+                            WWW : http://cern.ch/geant4
+*************************************************************
+
+GDML file name = YieldCurve.gdml
+G4GDML: Reading 'YieldCurve.gdml'...
+G4GDML: Reading definitions...
+G4GDML: Reading materials...
+G4GDML: Reading solids...
+G4GDML: Reading structure...
+Calling SEMGDMLReader::VolumeRead
+G4GDML: Reading module 'BulkSample.gdml'...
+G4GDML: Reading definitions...
+G4GDML: Reading materials...
+G4Material WARNING: duplicate name of material Galactic
+G4Material WARNING: duplicate name of material BlackHole
+G4Material WARNING: duplicate name of material Silver
+G4Material WARNING: duplicate name of material Aluminum
+G4Material WARNING: duplicate name of material Oxygen
+G4Material WARNING: duplicate name of material Gold
+G4Material WARNING: duplicate name of material GalacticGold
+G4Material WARNING: duplicate name of material Epoxy
+G4Material WARNING: duplicate name of material BioGold
+G4Material WARNING: duplicate name of material Diamond
+G4Material WARNING: duplicate name of material GlassyCarbon
+G4Material WARNING: duplicate name of material Graphite
+G4Material WARNING: duplicate name of material Chromium
+G4Material WARNING: duplicate name of material Copper
+G4Material WARNING: duplicate name of material Germanium
+G4Material WARNING: duplicate name of material Iron
+G4Material WARNING: duplicate name of material Molybdenum
+G4Material WARNING: duplicate name of material Hydrogengas
+G4Material WARNING: duplicate name of material Nickel
+G4Material WARNING: duplicate name of material Nitrogen
+G4Material WARNING: duplicate name of material Platinum
+G4Material WARNING: duplicate name of material Silicon
+G4Material WARNING: duplicate name of material Tin
+G4Material WARNING: duplicate name of material Tantalum
+G4Material WARNING: duplicate name of material Titanium
+G4Material WARNING: duplicate name of material Tungsten
+G4Material WARNING: duplicate name of material Backgroundgas
+G4Material WARNING: duplicate name of material Alumina
+G4Material WARNING: duplicate name of material AluminumArsenide
+G4Material WARNING: duplicate name of material AluminumNitride
+G4Material WARNING: duplicate name of material GalliumArsenide
+G4Material WARNING: duplicate name of material GalliumNitride
+G4Material WARNING: duplicate name of material IndiumArsenide
+G4Material WARNING: duplicate name of material MagnesiumOxide
+G4Material WARNING: duplicate name of material NickelSilicide
+G4Material WARNING: duplicate name of material PMMA
+G4Material WARNING: duplicate name of material Polyimide
+G4Material WARNING: duplicate name of material SiliconCarbide
+G4Material WARNING: duplicate name of material lowdensSiC
+G4Material WARNING: duplicate name of material SiliconNitride
+G4Material WARNING: duplicate name of material Silicon7Nitride7amorphous
+G4Material WARNING: duplicate name of material Silicon7Nitride7homogeneous
+G4Material WARNING: duplicate name of material Silicon7Nitride7cluster
+G4Material WARNING: duplicate name of material SiliconOxide
+G4Material WARNING: duplicate name of material lowk
+G4Material WARNING: duplicate name of material lowk2
+G4Material WARNING: duplicate name of material PdopedSiliconOxide
+G4Material WARNING: duplicate name of material TantalumNitride
+G4Material WARNING: duplicate name of material TitaniumOxide
+G4Material WARNING: duplicate name of material Water
+G4Material WARNING: duplicate name of material Watervapor
+G4GDML: Reading solids...
+G4GDML: Reading structure...
+G4GDML: Reading setup...
+G4GDML: Reading module 'BulkSample.gdml' done!
+Exiting SEMGDMLReader::VolumeRead
+G4GDML: Reading GDML extension...
+SEMGDML: Reading detectors ...
+SEMGDML: Reading detector...
+Number of stored detectors = 0
+SEMGDML: Reading detector...
+Number of stored detectors = 1
+SEMGDML: Reading detector...
+Number of stored detectors = 2
+G4GDML: Reading setup...
+G4GDML: Reading 'YieldCurve.gdml' done!
+Stripping off GDML names of materials, solids and volumes ...
+Calling CADPhysicsPhysicsList. Version December 2007.
+- Includes Rutherford scattering model above 30keV. September 2010.
+Name of planar detector stored = #PlaneR#
+Name of planar detector stored = #PlaneT#
+Name of planar detector stored = #Sample#
+
+The geometrical trees defined are : 
+
+LogWorld_PV[0] LogWorld 1 Galactic Atom density = 0.0596848 1/cm3 
+  samplecontainer_PV[0] samplecontainer 3 Galactic Atom density = 0.0596848 1/cm3 
+    LogSample_PV[0] LogSample 0 BlackHole Atom density = 0.0596848 1/cm3  /Sample
+    LogPlaneR_PV[0] LogPlaneR 0 Galactic Atom density = 0.0596848 1/cm3  /PlaneR
+    LogPlaneT_PV[0] LogPlaneT 0 Galactic Atom density = 0.0596848 1/cm3  /PlaneT
+ G4Transportation constructor> set fShortStepOptimisation to false
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Visualization Manager initialising...
+Registering graphics systems...
+
+You have successfully registered the following graphics systems.
+Current available graphics systems are:
+ASCIITree (ATree)
+DAWNFILE (DAWNFILE)
+G4HepRep (HepRepXML)
+G4HepRepFile (HepRepFile)
+RayTracer (RayTracer)
+VRML1FILE (VRML1FILE)
+VRML2FILE (VRML2FILE)
+
+Registering model factories...
+
+You have successfully registered the following model factories.
+Registered model factories:
+  generic
+  drawByCharge
+  drawByParticleID
+  drawByOriginVolume
+  drawByAttribute
+
+Registered filter factories:
+  chargeFilter
+  particleFilter
+  originVolumeFilter
+  attributeFilter
+
+You have successfully registered the following user vis actions.
+Run Duration User Vis Actions: none
+End of Event User Vis Actions: none
+End of Run User Vis Actions: none
+
+Some /vis commands (optionally) take a string to specify colour.
+Available colours:
+  black, blue, brown, cyan, gray, green, grey, magenta, red, white, yellow
+
+Random number generator seeded with 1572708845
+/run/verbose 1
+/gps/verbose 1
+/tracking/verbose 1
+/process/inactivate kill
+/run/physicsModified
+/process/em/deexcitation "World" true true true
+/run/physicsModified
+/process/em/fluo true
+/run/physicsModified
+/process/em/auger true
+/run/physicsModified
+/process/em/pixe true
+/run/physicsModified
+/run/initialize
+/control/execute mac/Pointsource.mac
+/gps/particle e-
+/gps/pos/type Point
+/gps/pos/shape Circle
+/gps/pos/rot1 1.0 0.0 0.0
+/gps/pos/rot2 0.0 1.0 0.0
+/gps/pos/radius 0.0 mm
+/gps/ang/type planar
+/gps/direction 0.0 0.001 -0.999
+/gps/number 1
+/detectors/verbose 10000
+/detectors/PlaneR/directional true
+/detectors/PlaneR/direction 0.0 0.0 1.0
+/detectors/PlaneT/directional true
+/detectors/PlaneT/direction 0.0 0.0 -1.0
+/detectors/PlaneR/multipleHits false
+/detectors/PlaneT/multipleHits false
+/detectors/Sample/multipleHits true
+/gps/pos/centre 0.0 0.0 0.00001 mm
+/detectors/setmaterial LogSample Silicon
+Material of volume LogSample set to Silicon
+New geometrical tree: 
+LogWorld_PV[0] LogWorld 1 Galactic Atom density = 0.0596848 1/cm3 
+  samplecontainer_PV[0] samplecontainer 3 Galactic Atom density = 0.0596848 1/cm3 
+    LogSample_PV[0] LogSample 0 Silicon Atom density = 4.99345e+22 1/cm3  /Sample
+    LogPlaneR_PV[0] LogPlaneR 0 Galactic Atom density = 0.0596848 1/cm3  /PlaneR
+    LogPlaneT_PV[0] LogPlaneT 0 Galactic Atom density = 0.0596848 1/cm3  /PlaneT
+/control/foreach mac/energy.mac energy 1250
+/gps/energy 1250 eV
+/run/beamOn 500
+ERROR: 8 - Floating point divide by zero.
+
+Call Stack:
+31: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4run.so
+30: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4run.so
+29: /lib/x86_64-linux-gnu/libc.so.6
+28: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4processes.so : G4VRangeToEnergyConverter::Convert(double, G4Material const*)
+27: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4processes.so : G4ProductionCutsTable::UpdateCoupleTable(G4VPhysicalVolume*)
+26: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4run.so : G4RunManagerKernel::UpdateRegion()
+25: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4run.so : G4RunManagerKernel::RunInitialization(bool)
+24: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4run.so : G4RunManager::RunInitialization()
+23: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4run.so : G4RunManager::BeamOn(int, char const*, int)
+22: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4run.so : G4RunMessenger::SetNewValue(G4UIcommand*, G4String)
+21: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UIcommand::DoIt(G4String)
+20: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UImanager::ApplyCommand(char const*)
+19: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UImanager::ApplyCommand(G4String const&)
+18: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UIbatch::ExecCommand(G4String const&)
+17: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UIbatch::SessionStart()
+16: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UImanager::ExecuteMacroFile(char const*)
+15: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UImanager::Foreach(char const*, char const*, char const*)
+14: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UImanager::ForeachS(char const*)
+13: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UIcontrolMessenger::SetNewValue(G4UIcommand*, G4String)
+12: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UIcommand::DoIt(G4String)
+11: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UImanager::ApplyCommand(char const*)
+10: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UImanager::ApplyCommand(G4String const&)
+9: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UIbatch::ExecCommand(G4String const&)
+8: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UIbatch::SessionStart()
+7: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UImanager::ExecuteMacroFile(char const*)
+6: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UIcontrolMessenger::SetNewValue(G4UIcommand*, G4String)
+5: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UIcommand::DoIt(G4String)
+4: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UImanager::ApplyCommand(char const*)
+3: /home/christopherwalker/Geant4/geant4.10.02.p03-install/lib/libG4intercoms.so : G4UImanager::ApplyCommand(G4String const&)
+2: ../../SEM/SEM_4.10.00
+1: /lib/x86_64-linux-gnu/libc.so.6
+0: ../../SEM/SEM_4.10.00
+Aborted (core dumped)
